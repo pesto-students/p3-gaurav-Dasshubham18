@@ -11,7 +11,7 @@
 - Will do speculative parsing
 - It’s reentrant
 
-<img="assets/Network-1.png" >
+![Untitled](assets/Network-1.png)
 
 **Tokensiser → tag parsing → <div> (start tag), </div>(end tag)**
 
