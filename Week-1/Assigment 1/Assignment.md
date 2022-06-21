@@ -1,7 +1,7 @@
 ## When a user enters an URL in the browser, how does the browser fetch the desired result ?
 
-![Untitled](Week-1/Assigment 1/assets/ISP diagram-2.png)
-![Untitled](Week-1/Assigment 1/assets/ISP diagram-1.png)
+![Untitled](assets/ISP%20diagram-2.png)
+![Untitled](assets/ISP%20diagram-1.png)
 
 **Parsing HTML**
 
@@ -11,7 +11,7 @@
 - Will do speculative parsing
 - It’s reentrant
 
-![Untitled](Week-1/Assigment 1/assets/Network-1.png)
+<img="assets/Network-1.png" >
 
 **Tokensiser → tag parsing → <div> (start tag), </div>(end tag)**
 
