@@ -23,7 +23,7 @@ class Node {
     /* function see the code */
     function printList (node){
         while (node != null){
-            document.write(node.data + " "),
+            console.log(node.data + " "),
             node = node.next;
         }
     } 
@@ -34,11 +34,12 @@ class Node {
     head.next.next = new Node(4);
     head.next.next.next = new Node(20);
 
-    document.write("Given linked list<br/>");
+    console.log("Given linked list<br/>");
     printList(head);
     head = reverse(head);
-    document.write("<br/>");
-    document.write("Reversed linked list<br/> ");
+    console.log("<br/>");
+    console.log("Reversed linked list<br/> ");
     printList(head);
 
-    //bug with running the code in VS code
+    //Time complexity = O(n)
+    //Space complexity = O(1)
